@@ -1,0 +1,81 @@
+{
+  "pages": [
+    "pages/tabbar/component/component",
+    "pages/tabbar/pagelayout/pagelayout",
+    "pages/tabbar/personalcenter/personalcenter",
+    "components/pageHeader/pageHeader",
+    "components/titleStyle/titleStyle",
+    "pages/tabbar/test"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Leaf UI",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/component/component",
+        "iconPath": "/images/tabbar/basics.png",
+        "selectedIconPath": "/images/tabbar/basics_cur.png",
+        "text": "组件"
+      },
+      {
+        "pagePath": "pages/tabbar/pagelayout/pagelayout",
+        "iconPath": "/images/tabbar/component.png",
+        "selectedIconPath": "/images/tabbar/component_cur.png",
+        "text": "拓展"
+      },
+      {
+        "pagePath": "pages/tabbar/personalcenter/personalcenter",
+        "iconPath": "/images/tabbar/about.png",
+        "selectedIconPath": "/images/tabbar/about_cur.png",
+        "text": "个人"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息用于打卡位置信息展示"
+    }
+  },
+  "plugins": {
+    "calendar": {
+      "version": "1.1.3",
+      "provider": "wx92c68dae5a8bb046"
+    }
+  },
+  "subpackages": [
+    {
+      "root": "componentSp",
+      "name": "component",
+      "pages": [
+        "popup/popup",
+        "button/button",
+        "checkbox/checkbox",
+        "videotobase64/videotobase64",
+        "from/from",
+        "map/map",
+        "phototobase64/phototobase64",
+        "tencentcloud/tencentcloud",
+        "tencentcloud/facecontrast/facecontrast"
+      ]
+    },
+    {
+      "root": "pagelayoutSp",
+      "name": "pagelayout",
+      "pages": [
+        "grid/grid"
+      ]
+    }
+  ]
+}

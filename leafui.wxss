@@ -1,0 +1,83 @@
+.top5 {
+  margin-top: 5px;
+}
+
+.top10 {
+  margin-top: 10px;
+}
+
+.top15 {
+  margin-top: 15px;
+}
+
+.top20 {
+  margin-top: 20px;
+}
+
+.top25 {
+  margin-top: 25px;
+}
+
+.top30 {
+  margin-top: 30px;
+}
+
+/* 注释框样式 */
+.jc_explain {
+  width: 90%;
+  margin-left: 3%;
+  border-radius: 5px;
+  border: 1px solid #efefef;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 2%;
+  font-size: 13px;
+}
+
+.jc_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skewa {
+  width: 80px;
+  height: 15px;
+  background: #d8d8d8;
+  margin: 0 auto;
+  /* color: #000; */
+  /* font-size: 17px; */
+  /* text-align: center; */
+  /* line-height: 34px; */
+  transform: skew(-15deg);
+}
+
+.jc_zdy_btn {
+  width: 90%;
+  height: 50px;
+  margin-left: 5%;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.jc_zdy_btn_yj {
+  width: 90%;
+  height: 50px;
+  margin-left: 5%;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.jc_zdy_btn_yj_yy {
+  width: 90%;
+  height: 50px;
+  margin-left: 5%;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px #d8d8d8;
+}

@@ -1,0 +1,7 @@
+/* componentSp/phototobase64/phototobase64.wxss */
+@import "/app.wxss";
+
+page {
+  width: 100%;
+  height: 100%;
+}

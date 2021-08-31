@@ -1,0 +1,7 @@
+/* pages/tabbar/component/button/button.wxss */
+@import "/app.wxss";
+
+page {
+  width: 100%;
+  height: 100%;
+}

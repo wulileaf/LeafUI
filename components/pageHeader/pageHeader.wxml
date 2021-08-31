@@ -1,0 +1,5 @@
+<view class="pageheader">
+	<text style="width:25%;height:1px;background-color:#d8d8d8;margin-right:5%;"></text>
+	<text>{{titleName}}</text>
+	<text style="width:25%;height:1px;background-color:#d8d8d8;margin-left:5%;"></text>
+</view>

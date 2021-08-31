@@ -1,0 +1,93 @@
+/* componentSp/checkbox/checkbox.wxss */
+@import "/app.wxss";
+
+page {
+  width: 100%;
+  height: 100%;
+}
+
+.jc_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.checkboxdata {
+  display: inline-block;
+  margin: 10px;
+  padding: 6px;
+  background: #eee;
+  border-radius: 4px;
+}
+
+.checkedActivedata {
+  /* background:red; */
+  color: #fff;
+}
+
+/* 点击后的效果颜色，文字/边框 */
+.checkboxdatakx {
+  display: inline-block;
+  margin: 10px;
+  padding: 6px;
+  /* background: #eee; */
+  border-radius: 4px;
+
+
+}
+
+/* 默认文字颜色 */
+.checkedActivedatakx {
+  color: #000;
+  border: 1px solid #000;
+}
+
+/* .jc_explain {
+  width: 90%;
+  margin-left: 3%;
+  border-radius: 5px;
+  border: 1px solid #efefef;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 2%;
+  font-size: 13px;
+} */
+
+
+
+/* 重写 checkbox 样式 */
+/* 未选中的 背景样式 */
+testYS .wx-checkbox-input {
+  border-radius: 50%;
+  /* 圆角 */
+  width: 46rpx;
+  /* 背景的宽 */
+  height: 46rpx;
+  /* 背景的高 */
+}
+
+/* 选中后的 背景样式 （红色背景 无边框 可根据UI需求自己修改） */
+testYS .wx-checkbox-input.wx-checkbox-input-checked {
+  border: 1rpx solid #FF783B;
+  background: #FF783B;
+}
+
+/* 选中后的 对勾样式 （白色对勾 可根据UI需求自己修改） */
+testYS .wx-checkbox-input.wx-checkbox-input-checked::before {
+  border-radius: 50%;
+  /* 圆角 */
+  width: 40rpx;
+  /* 选中后对勾大小，不要超过背景的尺寸 */
+  height: 40rpx;
+  /* 选中后对勾大小，不要超过背景的尺寸 */
+  line-height: 40rpx;
+  text-align: center;
+  font-size: 30rpx;
+  /* 对勾大小 30rpx */
+  color: #fff;
+  /* 对勾颜色 白色 */
+  background: transparent;
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+}

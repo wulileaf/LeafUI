@@ -1,0 +1,7 @@
+/* components/pageHeader/pageHeader.wxss */
+.pageheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

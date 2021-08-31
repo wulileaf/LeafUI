@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "pageHeader": "/components/pageHeader/pageHeader",
+    "titleStyle": "/components/titleStyle/titleStyle"
+  }
+}

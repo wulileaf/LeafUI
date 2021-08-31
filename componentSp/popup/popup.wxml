@@ -1,0 +1,14 @@
+		
+    <button bindtap="btn_show">显示自定义弹出框</button>
+    
+    
+    <!-- 遮罩层 -->
+		<view class="popup_mask" wx:if="{{showModal}}" bindtap='out' catchtouchmove="true"></view>
+		<!-- 弹出层 -->
+		<view class="popup_modalDlg" wx:if="{{showModal}}">
+			<image src="/images/leafui.png" class='popup_img' style="margin-top:5%;" />
+			<text style="color:#000;font-size:20px;margin-top:5%;">欢迎来到leafui</text>
+			<text style="color:#b4b4b4;font-size:15px;margin-top:10%;">感谢支持</text>
+			<view class="popup_kown" bindtap="bindKown">确定</view>
+			<view class="popup_modalCancel" bindtap="bindCancel">取消</view>
+		</view>

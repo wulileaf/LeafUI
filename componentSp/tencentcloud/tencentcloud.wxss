@@ -1,0 +1,53 @@
+/* componentSp/tencentcloud/tencentcloud.wxss */
+@import "/app.wxss";
+
+page {
+  width: 100%;
+  height: 100%;
+}
+
+
+.example {
+  overflow: hidden;
+  background: #f5d7b7;
+  height: 44px;
+  padding: 0;
+  line-height: 44px;
+}
+
+.example>li {
+  float: left;
+  position: relative;
+  width: 50%;
+  text-align: center;
+  list-style: none;
+  background-color: #fff;
+}
+
+.example>li:before,
+.example>li:after {
+  position: absolute;
+  top: 0;
+}
+
+.example>li:before {
+  width: 44px;
+  height: 44px;
+  right: -43px;
+  background: inherit;
+}
+
+.example>li:after {
+  right: -44px;
+  border: 22px solid;
+  border-color: transparent #f5d7b7 #f5d7b7 transparent;
+}
+
+.example>li.active {
+  background: -webkit-linear-gradient(top, #f3941d, #f3941d 50%, #f08513 50%, #f08513);
+}
+
+.example>li.active:before,
+.example>li.active:after {
+  content: '';
+}

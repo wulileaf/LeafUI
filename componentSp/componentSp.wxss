@@ -1,0 +1,67 @@
+/* 弹出窗 */
+
+.popup_mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  z-index: 9000;
+  opacity: 0.5;
+}
+
+.popup_modalDlg {
+  width: 75%;
+  height: auto;
+  position: fixed;
+  z-index: 9000;
+  background-color: #fff;
+  border-radius: 36rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+
+.popup_img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.popup_kown {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  background: #5b91fe;
+  width: 80%;
+  height: 50px;
+  border-radius: 50rpx;
+  font-size: 15px;
+  margin-top: 15%;
+}
+
+.popup_button {
+  position: fixed;
+}
+
+.popup_modalCancel {
+  display: flex;
+  flex-direction: row;
+  color: #b4b4b4;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  width: 80%;
+  height: 50px;
+  border-radius: 50rpx;
+  font-size: 15px;
+  margin-bottom: 3%;
+}
+
+/* 弹出框 */

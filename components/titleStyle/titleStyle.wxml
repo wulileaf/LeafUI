@@ -1,0 +1,6 @@
+<view class="titlestyle">
+	<!-- <text style="width:25%;height:1px;background-color:#d8d8d8;margin-right:5%;"></text> -->
+	<text class="left_style"></text>
+	<text>{{titleName}}</text>
+	<text class="left_style"></text>
+</view>

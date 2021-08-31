@@ -1,0 +1,28 @@
+<view class="jc_container">
+	<view class="jc_region_one">
+		<image src="/images/leafui.png" class="jc_logo" style="margin-left:10%;margin-right:5%"></image> LeafUI
+	</view>
+	<view style="color:#d8d8d8;margin-left:10%;font-size:15px;margin-bottom:25px;">欢迎使用leafui微信小程序ui组件库(适用初学者)</view>
+
+	<view class='select_box' wx:for="{{OrderData}}" wx:key='Id' style="margin-top:10px;" hidden="{{alreadyCompleted}}"
+		wx:if="{{item.IsShow}}">
+		<view class='select' data-index="{{index}}" bindtap="itemOnClick" style="height:50px;border-bottom:1px solid #fff;">
+			<text class='select_text'
+				style="margin-left:10px;font-size:15px;color:#000;font-weight:600;">{{item.ReplName}}</text>
+			<image class='select_img {{item.SelectShow&&"select_img_rotate"}} select_imgother' src='/images/downarr.png'
+				background-size="contain"></image>
+		</view>
+		<view class="option_box" style='height:{{item.SelectShow==false? "auto" : 0}};'>
+			<view class='sfa-item' style='width:100%;height:auto;'>
+				<block wx:for='{{item.ProductData}}' wx:for-index='index' wx:key>
+					<view class='sfa-fp-item' style='border-bottom:0.2rpx solid #f1f1f1' bindtap="itemSecondLevelOnClick"
+						data-index="{{index}}" data-id="{{item.id}}">
+						<text class='sfa-label'>{{item.ProductName}}</text>
+						<icon class="iconfont icon-arrow-right" style="font-size:35px;color:#d8d8d8"></icon>
+					</view>
+				</block>
+			</view>
+		</view>
+	</view>
+
+</view>

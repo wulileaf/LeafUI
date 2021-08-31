@@ -1,0 +1,106 @@
+<!-- 广告3 -->
+<view class='sun-label'>
+	<view class='sun-saoma-vip' bindtap='sunBtnSaoMa'>
+		<icon class='iconfont icon-saoyisao' style='color:#ffffff;width:25px;heigth:25px;font-size:25px;'></icon>
+		<text class='tx'>扫一扫</text>
+	</view>
+	<!-- <image src='/images/ssk.png' class='sun-ssk'></image> -->
+	<view style="width:75%;height:58%;border-width:1px;border-color:red;background:#d8d8d8;border-bottom-right-radius:0%;border-top-right-radius:23px;border-bottom-left-radius:23px;border-top-left-radius:23px;opacity:0.6" class="sun-sousuo">
+		<image src="/images/biaoqing.png" style="width:25px;height:25px;margin-left:10px"></image>
+		<text style="font-size:13px;color:black;margin-left:5px">iphone X Max</text>
+	</view>
+	<view class='sun-saoma-vip' bindtap='sunBtnVip'>
+		<icon class='iconfont icon-huiyuan' style='color:#ffffff;width:18px;heigth:18px;font-size:18px;'></icon>
+		<text class='tx'>会员</text>
+	</view>
+</view>
+
+<swiper class="screen-swiper round-dot" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" current='{{current}}'>
+	<swiper-item wx:for="{{imagesurl}}" bindtap='tapS' wx:for-index="index" data-index="{{index}}" wx:key>
+		<image src="{{item}}" mode='aspectFill'></image>
+	</swiper-item>
+</swiper>
+
+<!-- 广告1 -->
+<view class="layoutOne" style="margin-top:10px">
+	<swiper class="pageOne" circular="true" autoplay="true" interval="5000" duration="500" current='{{current}}'>
+		<swiper-item wx:for="{{imagesurl}}" bindtap='tapS' wx:for-index="index" data-index="{{index}}" wx:key>
+			<image src="{{item}}" mode='aspectFill'></image>
+		</swiper-item>
+	</swiper>
+	<view class="pageTwo">
+		<!-- <view class="sPageOne">
+    </view> -->
+		<swiper class="sPageOne" circular="true" autoplay="true" interval="5000" duration="500" current='{{current}}' vertical='true'>
+			<swiper-item wx:for="{{imagesurl}}" bindtap='tapS' wx:for-index="index" data-index="{{index}}" wx:key>
+				<image src="{{item}}" mode='aspectFill'></image>
+			</swiper-item>
+		</swiper>
+		<image class="sPageTwo" src="http://47.114.149.241:8080/images/leafui/food_three.jpg"></image>
+	</view>
+</view>
+
+<!-- Leaf拼购 -->
+<view class='sun-pingou'>
+	<view class='sun-pingou-title'>
+		<text class='sun-left-tex'>Leaf拼购</text>
+		<text class='sun-rigth-tex'>好友都在拼</text>
+	</view>
+	<scroll-view scroll-x="true" class='sun-pingou-text'>
+		<block wx:for="{{pingou}}" data-index="index" wx:for-index='index' wx:key>
+			<view class='sun-pingou-item'>
+				<view class='cad'>
+					<image src='{{item.programmeImage[0]}}' class='sun-pingou-img'></image>
+					<text class='tex'>{{item.programmeName}}</text>
+					<text class='tex-price'>{{item.programmeId}}￥</text>
+				</view>
+			</view>
+		</block>
+	</scroll-view>
+</view>
+
+<!-- 广告2 -->
+<view class="advertTwo">
+	<block wx:for="{{advertTwoData}}" wx:key>
+		<view data-index="index" style="width:50%;height:100px;background:#{{item.color}};transform:skew(-15deg);">
+
+		</view>
+	</block>
+</view>
+
+
+<!-- 自定义滑动 -->
+<view class="rel bb1">
+	<swiper class="bannerBox" autoplay="true" interval="3000" duration="500" previous-margin="50rpx" next-margin="50rpx" bindchange="bannerChange" easing-function="linear" circular="true">
+		<block wx:for="{{bannerData}}" wx:key="item.id">
+			<swiper-item>
+				<view class="fix pl5 pr5 box_bb">
+					<image class="banner mt10 {{ currentIndex==index?'active':''}}" src="{{item.src}}" mode="aspectFill" />
+				</view>
+			</swiper-item>
+		</block>
+	</swiper>
+	<view class="bannerDots flex_c abs">
+		<view class="dot {{ currentIndex==index?'active':''}}" wx:for="{{bannerData}}" wx:key="item.id"></view>
+	</view>
+</view>
+
+
+<!-- 横向滑动 -->
+<view class='sun-pingou-huadong'>
+	<view class='sun-pingou-title'>
+		<text class='sun-left-tex'>Leaf横向滑动</text>
+	</view>
+	<scroll-view scroll-x="true" class='sun-text'>
+		<block wx:for="{{pingouhuadong}}" data-index="index" wx:for-index='index' wx:key>
+			<view class='sun-pingou-item-text'>
+				<view class='cad-text'>
+					<!-- <image src='{{item.programmeImage[0]}}' class='sun-pingou-img'></image> -->
+					<text class='tex'>{{item.programmeName}}</text>
+					<!-- <text class='tex-price'>{{item.programmeId}}￥</text> -->
+				</view>
+			</view>
+			<!-- <view></view> -->
+		</block>
+	</scroll-view>
+</view>

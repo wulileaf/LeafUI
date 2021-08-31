@@ -1,0 +1,26 @@
+/* components/titleStyle/titleStyle.wxss */
+.left_style {
+  width: 60px;
+  height: 15px;
+  background: #efefef;
+  margin: 0 5%;
+  transform: skew(-15deg);
+}
+
+
+.right_style {
+  width: 80px;
+  height: 15px;
+  background: #d8d8d8;
+  margin: 0 auto;
+  transform: skew(15deg);
+}
+
+
+.titlestyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+

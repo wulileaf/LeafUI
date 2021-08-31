@@ -1,0 +1,213 @@
+@import '/icon.wxss';
+
+Page {
+  width: 100%;
+  height: 100%;
+}
+
+.jc_container {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.jc_region_one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.jc_logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 5%;
+}
+
+
+
+
+
+/* 点击后的颜色 */
+.isActive {
+  color: #5B91FE;
+}
+
+.select_box {
+  width: 90%;
+  /* border-radius: 14rpx; */
+  margin-left: 5%;
+  position: relative;
+  background-color: #F5F6FA;
+}
+
+.select_box .select {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 10rpx;
+}
+
+.select_box .select .select_text {
+  font-size: 26rpx;
+  color: #777;
+  line-height: 28rpx;
+}
+
+.select_box .select .select_img {
+  width: 22px;
+  height: 22px;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.select_box .select .select_img_rotate {
+  transform: rotate(180deg);
+}
+
+.select_box .option_box {
+  background: #fff;
+  overflow: hidden;
+}
+
+.select_box .option_box .option {
+  display: block;
+  line-height: 50rpx;
+  font-size: 26rpx;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  padding: 10rpx;
+}
+
+.view-root {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent
+}
+
+.item_sty {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 94%;
+  height: 45px;
+  margin-left: 3%;
+  font-size: 13px
+}
+
+.select_imgother {
+  right: 0px;
+  position: absolute;
+  margin-right: 10px;
+}
+
+/* -------------设置三级页面时二级页面的样式----------------- */
+
+.select_img {
+  width: 22px;
+  height: 22px;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.select_img_rotate {
+  transform: rotate(180deg);
+}
+
+.option_box {
+  background: #fff;
+  overflow: hidden;
+}
+
+.option {
+  display: block;
+  line-height: 50rpx;
+  font-size: 26rpx;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  padding: 10rpx;
+}
+
+/* -------------设置三级页面时二级页面的样式----------------- */
+
+
+.sfa-item {
+  display: flex;
+  align-items: center;
+  font-size: 27rpx;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.sfa-fp-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* border-bottom: 0.1rpx solid #f1f1f1;
+  border-top: 0.1rpx solid #f1f1f1; */
+  width: 92%;
+  height: 86rpx;
+  background: #fff;
+  margin-left: 4%;
+  /* position: absolute;
+  text-overflow: ellipsis;
+  word-wrap: break-word; */
+}
+
+.sfa-label {
+  font-size: 28rpx;
+  width: auto;
+  height: 70rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  /* border-right: 0.2rpx solid #f1f1f1; */
+}
+
+.sfa-label-yorn-kc {
+  font-size: 28rpx;
+  width: 33%;
+  height: 90rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border-left: 0.1rpx solid #f1f1f1; */
+  border-right: 0.2rpx solid #fff;
+}
+
+.sfa-label-hh {
+  font-size: 28rpx;
+  width: 62%;
+  height: 90rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4%;
+  /* border-left: 0.1rpx solid #f1f1f1; */
+  border-right: 5rpx solid #fff;
+}
+
+.sfa-label-fx-kc {
+  font-size: 28rpx;
+  width: 30%;
+  height: 90rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4%;
+  /* border-left: 0.1rpx solid #f1f1f1; */
+  border-right: 5rpx solid #fff;
+}

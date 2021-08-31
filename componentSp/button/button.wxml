@@ -1,0 +1,56 @@
+<view style="width:100%;height:15%;" class="jc_header">
+	<pageHeader titleName="{{titleName}}" style="width:100%;"></pageHeader>
+</view>
+
+<titleStyle titleName="{{titleStyleName}}"></titleStyle>
+
+<button type="primary" class="top20">button</button>
+<button type="default" class="top20">button</button>
+<button type="warn" class="top20">button</button>
+
+<button type="primary" class="top20" plain="true">button</button>
+<button type="default" class="top20" plain="true">button</button>
+<button type="warn" class="top20" plain="true">button</button>
+
+<button type="primary" class="top20" loading="true">button</button>
+<button type="default" class="top20" loading="true">button</button>
+<button type="warn" class="top20" loading="true">button</button>
+
+<view class="jc_explain">
+	注意点：注意下open-type这个属性。
+</view>
+
+<titleStyle titleName="{{titleStyleNameExpand}}"></titleStyle>
+
+<view class="jc_zdy_btn top20" style="background-color: #2894FF;">button</view>
+
+<view class="jc_zdy_btn top20" style="background-color: #FF8040;">button</view>
+
+<view class="jc_zdy_btn top20" style="background-color: #A6A6D2;">button</view>
+
+<view class="jc_zdy_btn top20" style="background-color: #C07AB8;">button</view>
+
+<view class="jc_zdy_btn top20" style="background-color: #FFDC35;">button</view>
+
+
+<view class="jc_zdy_btn_yj top20" style="background-color: #2894FF;">button</view>
+
+<view class="jc_zdy_btn_yj top20" style="background-color: #FF8040;">button</view>
+
+<view class="jc_zdy_btn_yj top20" style="background-color: #A6A6D2;">button</view>
+
+<view class="jc_zdy_btn_yj top20" style="background-color: #C07AB8;">button</view>
+
+<view class="jc_zdy_btn_yj top20" style="background-color: #FFDC35;">button</view>
+
+<!-- <view class="jc_zdy_btn_yj_yy top20" style="background-color: #2894FF;">button</view>
+
+<view class="jc_zdy_btn_yj_yy top20" style="background-color: #FF8040;">button</view>
+
+<view class="jc_zdy_btn_yj_yy top20" style="background-color: #A6A6D2;">button</view>
+
+<view class="jc_zdy_btn_yj_yy top20" style="background-color: #C07AB8;">button</view>
+
+<view class="jc_zdy_btn_yj_yy top20" style="background-color: #FFDC35;">button</view> -->
+
+<view style="margin-bottom:50px;width:100%;height:50px"></view>

@@ -1,0 +1,116 @@
+/* componentSp/map/map.wxss */
+@import "/app.wxss";
+
+.map_container {
+  height: 350px;
+  width: 100%;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+}
+
+.imgphoto {
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.gral_zh {
+  width: 95%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 4%;
+  margin-left: 5%;
+}
+
+.zh {
+  font-size: 14px;
+  width: 26%;
+}
+
+.zh_data {
+  /* margin-left: 10px; */
+  width: 70%;
+  font-size: 14px;
+  /* word-break: keep-all;
+  word-wrap: break-word; */
+}
+
+.picker {
+  height: 100%;
+  width: 100%;
+}
+
+.btn-sure-up {
+  width: 60%;
+  margin-top: 30px;
+}
+
+.image {
+  width: 45px;
+  height: 45px;
+}
+
+.gral_zh_pz {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-top: 4%;
+  width: 95%;
+  height: 50px;
+  align-items: center;
+}
+
+.refresh {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  position: relative;
+}
+
+.location {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.zh_data {
+  width: 74%;
+  font-size: 14px;
+  margin-left: 3px;
+}
+
+.movelocation {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  position: absolute;
+  right: 0px;
+}
+
+.line {
+  height: 8px;
+  background: #fafafa;
+  width: 100%;
+}
+
+.jc_map {
+  border: 1px solid #f8f8f8;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+page {
+  width: 100%;
+  height: 100%;
+}
