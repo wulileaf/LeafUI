@@ -1,0 +1,14 @@
+@import "/icon.wxss";
+@import "/iconleafui.wxss";
+
+.btn-sousuo {
+  height: 32px;
+  margin-right: 20rpx;
+  background: #71c042;
+  color: #fff;
+  font-size: 27rpx;
+  border-radius: 50rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

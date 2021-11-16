@@ -1,0 +1,7 @@
+<view style="width: 100%;height: auto;display: flex;flex-direction: row;flex-wrap: wrap;">
+  <block wx:for="{{iconImg}}" wx:key="index">
+    <view style="width: 25%;height: 100px;text-align: center;">
+      <view style="line-height: 100px;font-size: 40px;color: #383838;" class="iconfont {{item.iconUrl}}"></view>
+    </view>
+  </block>
+</view>

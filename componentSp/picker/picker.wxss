@@ -1,0 +1,7 @@
+/* componentSp/picker/picker.wxss */
+@import "/app.wxss";
+
+page {
+  width: 100%;
+  height: 100%;
+}

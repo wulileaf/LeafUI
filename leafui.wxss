@@ -22,8 +22,8 @@
   margin-top: 30px;
 }
 
-/* 注释框样式 */
-.jc_explain {
+/* 基本布局 */
+.lui_page_explain {
   width: 90%;
   margin-left: 3%;
   border-radius: 5px;
@@ -34,11 +34,15 @@
   font-size: 13px;
 }
 
-.jc_header {
+/* 基本布局 */
+.lui_page_one {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+
+
 
 .skewa {
   width: 80px;

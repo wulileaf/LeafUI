@@ -11,9 +11,9 @@
 .layoutOne {
   width: 98%;
   margin-left: 1%;
-  border-radius: 10px;
+  border-radius: 5px;
   height: 200px;
-  background: red;
+  /* background: red; */
   flex-direction: row;
   display: flex;
 }

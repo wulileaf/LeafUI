@@ -1,4 +1,4 @@
-<view style="width:100%;height:15%;" class="jc_header">
+<view style="width:100%;height:15%;" class="lui_page_one">
 	<pageHeader titleName="{{titleName}}" style="width:100%;"></pageHeader>
 </view>
 
@@ -10,7 +10,7 @@
 	</label>
 </checkbox-group>
 
-<view class="jc_explain">
+<view class="lui_page_explain">
 	注意点：注意下open-type这个属性。
 </view>
 
@@ -31,6 +31,6 @@
 	</view>
 </view>
 
-<view class="jc_explain">
+<view class="lui_page_explain">
 	思考：如果自定义checkbox？改变前面的样式？
 </view>

@@ -100,6 +100,9 @@ Page({
       case 2:// from
         tools.NavigateTo(pageUrl.From)
         break;
+      case 3:// picker
+        tools.NavigateTo(pageUrl.Picker)
+        break;
       default:
         break;
     }
@@ -119,6 +122,9 @@ Page({
   // icon图标
   icon(index) {
     switch (index) {
+      case 0:
+        tools.NavigateTo(pageUrl.Icon);
+        break;
       default:
         break;
     }
@@ -127,6 +133,9 @@ Page({
   // 导航
   navigation(index) {
     switch (index) {
+      case 0:
+        tools.NavigateTo(pageUrl.Tabbar);
+        break;
       default:
         break;
     }
@@ -141,6 +150,9 @@ Page({
       case 1:
         tools.NavigateTo(pageUrl.VideoToBase64);
         break;
+      case 2:
+        tools.NavigateTo(pageUrl.PictureCompression);
+        break;
       default:
         break;
     }
@@ -152,6 +164,13 @@ Page({
     switch (index) {
       case 0:// 腾讯云
         tools.NavigateTo(pageUrl.TencentCloud)
+        break;
+      case 1:
+        break;
+      case 2:
+        break;
+      case 3:
+        tools.NavigateTo(pageUrl.ORC)
         break;
       default:
         break;

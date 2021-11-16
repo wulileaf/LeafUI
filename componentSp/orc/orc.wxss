@@ -1,0 +1,16 @@
+/* pages/orc/orc.wxss */
+/** wxss **/
+/*自定义按钮样式*/
+.ocr-wrapper {
+  margin: 40rpx auto;
+  width: 375rpx;
+}
+.intro {
+  margin: 40rpx;
+}
+
+.btn-bottom {
+  width: 70%;
+  height: 45px;
+  margin-top: 60px;
+}

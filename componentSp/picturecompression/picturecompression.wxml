@@ -1,0 +1,39 @@
+<view class='pe-container'>
+  <view class='m-head-title'>
+    <text class='m-title'>{{title}}</text>
+  </view>
+  <view class='line-wk'>
+    <view class="line"></view>
+  </view>
+
+  <!-- <view class='old_key_change'>
+    <text class='old'>品牌选择:</text>
+    <picker class='section' mode="selector" value="{{indexbrand}}" bindchange="brandChange" range="{{ofarry}}">
+      <view class="picker">
+        {{ofarry[indexbrand]}}
+      </view>
+    </picker>
+  </view> -->
+
+  <view class='pe-fpage'>
+    <block wx:for="{{photodata}}">
+      <view class='sale-content down-content' bindtap='btndate' bindlongpress='lbtn' data-index='{{index}}'>
+        <view class="{{index==0?'img-noone':'img-gf'}}">
+          <image src='{{item.address}}' class='gf'></image>
+        </view>
+      </view>
+    </block>
+  </view>
+
+  <!-- 注意：过期api要适时调整 -->
+  <action-sheet hidden="{{actionSheetHidden}}" bindchange="actionSheetbindchange">
+    <block wx:for-items="{{actionSheetItems}}">
+      <action-sheet-item bindtap="bind{{item.bindtap}}">{{item.txt}}</action-sheet-item>
+    </block>
+    <action-sheet-cancel class="cancel">取消</action-sheet-cancel>
+  </action-sheet>
+
+  <view class='btn-zw'>
+    <button class='btn-sure-up' type='primary' bindtap="jppzphoto" disabled='{{yorn}}'>确认提交</button>
+  </view>
+</view>

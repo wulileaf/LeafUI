@@ -1,0 +1,9 @@
+<view style="width: 100%;height: 60px;display: flex;flex-direction: row;align-items: center;">
+  <view style="width: 30%;height: 60px;line-height: 60px;padding-left: 2%;">{{pickerName}}</view>
+  <picker mode="{{mode}}" bindchange="luiPickerChange" value="{{region}}" custom-item="{{customItem}}" style="width: 62%;text-align: right;">
+    <view class="picker" style="color: {{pickerValue==''?'#d8d8d8':'#000'}};">
+      {{pickerValue==""?"请选择":pickerValue}}
+    </view>
+  </picker>
+  <icon class="iconfont icon-youjiantou" style="width: 8%;height: 60px;line-height: 60px;font-size: 25px;color: #d8d8d8;"></icon>
+</view>

@@ -1,0 +1,16 @@
+@import '/iconleafui.wxss';
+
+page {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.screen-swiper {
+  min-height: 500rpx;
+  position: relative;
+}
+
+.round-dot {
+  height: 200px;
+}

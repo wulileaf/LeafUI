@@ -1,4 +1,4 @@
-<view style="width:100%;height:15%;" class="jc_header">
+<view style="width:100%;height:15%;" class="lui_page_one">
 	<pageHeader titleName="{{titleName}}" style="width:100%;"></pageHeader>
 </view>
 
@@ -16,7 +16,7 @@
 <button type="default" class="top20" loading="true">button</button>
 <button type="warn" class="top20" loading="true">button</button>
 
-<view class="jc_explain">
+<view class="lui_page_explain">
 	注意点：注意下open-type这个属性。
 </view>
 

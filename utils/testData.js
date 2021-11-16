@@ -1,6 +1,6 @@
 var OrderData = [{
   "Id": "0",
-  "ReplName": "表单组件",
+  "ReplName": "基础组件",
   "ReplNo": "2020070800",
   "PurchaserName": "",
   "ReceiptTime": "2020/5/11 18:32",
@@ -21,15 +21,7 @@ var OrderData = [{
     "WareHouseName": ""
   }, {
     "id": 0,
-    "ProductName": "label",
-    "WareHouseName": ""
-  }, {
-    "id": 0,
     "ProductName": "picker",
-    "WareHouseName": ""
-  }, {
-    "id": 0,
-    "ProductName": "picker-view",
     "WareHouseName": ""
   }, {
     "id": 0,
@@ -113,6 +105,10 @@ var OrderData = [{
   }, {
     "id": 4,
     "ProductName": "视频",
+    "WareHouseName": ""
+  }, {
+    "id": 4,
+    "ProductName": "测试后台图片压缩",
     "WareHouseName": ""
   }]
 },

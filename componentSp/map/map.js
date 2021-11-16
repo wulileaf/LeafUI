@@ -33,6 +33,7 @@ Page({
       ak: that.data.ak
     });
     var fail = function (data) {
+      console.log("-----------" + JSON.stringify(data))
       tools.Toast('定位失败', 'none')
     };
     var success = function (data) {

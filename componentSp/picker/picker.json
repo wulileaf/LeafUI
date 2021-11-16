@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "pageHeader": "/components/pageHeader/pageHeader",
+    "titleStyle": "/components/titleStyle/titleStyle"
+  },
+  "navigationBarTitleText": "picker"
+}

@@ -1,4 +1,4 @@
-<view style="width:100%;height:15%;" class="jc_header">
+<view style="width:100%;height:15%;" class="lui_page_one">
 	<pageHeader titleName="{{titleName}}" style="width:100%;"></pageHeader>
 </view>
 
@@ -11,7 +11,7 @@
 
 <!-- <web-view class="top20" src="https://blog.csdn.net/wulileaf/article/details/83446220">这是之前我写的一篇文章基本满足转码的需求</web-view> -->
 
-<view class="jc_explain">
+<view class="lui_page_explain">
 	注意：这是之前我写的一篇文章基本满足转码的需求有更加详尽的解释。地址：https://blog.csdn.net/wulileaf/article/details/83446220
 </view>
 
@@ -32,6 +32,6 @@
 	</view>
 </view>
 
-<view class="jc_explain">
+<view class="lui_page_explain">
 	思考：如何将转化的数据写成文件，并且可以预览，分享到微信好友/朋友圈？
 </view>

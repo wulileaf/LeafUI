@@ -1,0 +1,3 @@
+/* componentSp/tabbar/tabbar.wxss */
+@import '/icon.wxss';
+@import '/pageBaseStyle.wxss'

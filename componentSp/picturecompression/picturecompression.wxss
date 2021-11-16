@@ -1,0 +1,121 @@
+page {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.m-head-title {
+  font-size: 15px;
+  margin-top: 5%;
+  font-weight: 500;
+}
+
+.m-title {
+  margin-left: 5%;
+}
+
+.pe-fpage {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  background-color: #fff;
+  margin-top: 5%;
+}
+
+.sale-content {
+  width: 18%;
+  height: 78px;
+  margin: 0px 2% 5% 2%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+}
+
+.down-content {
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-gf {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.img-noone {
+  width: 43px;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.gf {
+  width: 100%;
+  height: 100%;
+  align-self: center;
+}
+
+.line-wk {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 3%;
+  margin-top: 3%;
+}
+
+.line {
+  width: 90%;
+  height: 1px;
+  background-color: #ccc;
+  align-self: center;
+}
+
+.btn-sure-up {
+  width: 60%;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.btn-zw {
+  width: 100%;
+  height: 100px;
+}
+
+.old_key_change {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  align-items: center;
+}
+
+.old {
+  margin-left: 7%;
+  width: auto;
+  font-size: 12px;
+}
+
+.section {
+  background: #fff;
+  width: 65%;
+  height: 1.4rem;
+  margin-left: 2%;
+}
+
+.picker {
+  width: 100%;
+  height: 1.4rem;
+  font-size: 12px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}

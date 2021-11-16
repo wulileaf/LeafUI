@@ -1,24 +1,20 @@
 // pages/tabbar/test.js
 Page({
 
-  /**
-   * 页面的初始数据
-   */
   data: {
     // setTime: '',
     // num: 0,
     // showpic: null,
     // hidepic: null,
-
-
     list: ['啦啦啦', '嚯嚯嚯'],
     lists: ['啦啦啦', '嚯嚯嚯'],
-    page: 1
+    page: 1,
+    region: ['广东省', '广州市', '海珠区'],
+    date: '2016-09-01',
+    time: '12:01',
+    customItem: '全部'
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
   onLoad: function (options) {
     // var _this = this;
     // var num = _this.data.num;
@@ -47,9 +43,6 @@ Page({
     // })
   },
 
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
   onReady: function () {
     this.setData({
       op: 1,
@@ -57,17 +50,32 @@ Page({
     })
   },
 
-  /**
-   * 生命周期函数--监听页面显示
-   */
   onShow: function () {
 
   },
 
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
+  bindRegionChange(e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value)
+    this.setData({
+      region: e.detail.value
+    })
   },
+
+  bindTimeChange(e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value)
+    this.setData({
+      time: e.detail.value
+    })
+  },
+
+  bindDateChange(e) {
+    console.log('picker发送选择改变，携带值为', e.detail.value)
+    this.setData({
+      date: e.detail.value
+    })
+  },
+
+  luiPickerChange(e) {
+    console.log("------------点击了---------------" + JSON.stringify(e))
+  }
 })

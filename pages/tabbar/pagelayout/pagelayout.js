@@ -6,47 +6,47 @@ Page({
    */
   data: {
     imagesurl: [
-      'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573919960528&di=14ff7c5d89eedbc6237b0372526d3c42&imgtype=0&src=http%3A%2F%2Fdpic.tiankong.com%2Fim%2Frc%2FQJ6900929898.jpg',
-      'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573926069583&di=c5cd4bf5c939be2139da029faf5b7db6&imgtype=0&src=http%3A%2F%2Fhuafans.dbankcloud.com%2Fpic%2F2017%2F11%2F09%2F5e73598b6db356c260d5093de507ae75_IMG_20171109_075558.jpg%3Fmode%3Ddownload',
-      'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573926069586&di=849a4ecdd3fcbfb876d002dc6985d3c6&imgtype=0&src=http%3A%2F%2Fimg.yzcdn.cn%2Fupload_files%2F2017%2F09%2F18%2FFuvM4lfZ_p0U91e0avTVbm69Q9bu.jpg%2521730x0.jpg'
+      'https://t7.baidu.com/it/u=631924955,996383527&fm=193&f=GIF',
+      'https://t7.baidu.com/it/u=3399334306,3391085092&fm=193&f=GIF',
+      'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fup.enterdesk.com%2Fedpic%2Fdc%2Fd2%2Fe3%2Fdcd2e350f4fcae5d336b04756417c6dd.jpg&refer=http%3A%2F%2Fup.enterdesk.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1634955691&t=a4e8e1df8c9cd0da7e283dea491a5a12'
     ],
     pingou: [{
       "programmeId": 1,
-      "programmeImage": ["https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573926069586&di=849a4ecdd3fcbfb876d002dc6985d3c6&imgtype=0&src=http%3A%2F%2Fimg.yzcdn.cn%2Fupload_files%2F2017%2F09%2F18%2FFuvM4lfZ_p0U91e0avTVbm69Q9bu.jpg%2521730x0.jpg", "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573926069583&di=c5cd4bf5c939be2139da029faf5b7db6&imgtype=0&src=http%3A%2F%2Fhuafans.dbankcloud.com%2Fpic%2F2017%2F11%2F09%2F5e73598b6db356c260d5093de507ae75_IMG_20171109_075558.jpg%3Fmode%3Ddownload"],
+      "programmeImage": ["https://t7.baidu.com/it/u=1758662225,3275993814&fm=193&f=GIF"],
       "programmeName": "韭菜"
     }, {
       "programmeId": 2,
-      "programmeImage": ["https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2615645149,859447379&fm=26&gp=0.jpg"],
+      "programmeImage": ["https://t7.baidu.com/it/u=2218119053,2588246252&fm=193&f=GIF"],
       "programmeName": "菠菜"
     }, {
       "programmeId": 3,
-      "programmeImage": ["https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573971527647&di=551566c45f7300d2d777740aee67f99e&imgtype=0&src=http%3A%2F%2Fpic70.nipic.com%2Ffile%2F20150628%2F20578453_004635190000_2.jpg"],
+      "programmeImage": ["https://t7.baidu.com/it/u=693761745,3063141380&fm=193&f=GIF"],
       "programmeName": "香葱"
     }, {
       "programmeId": 4,
-      "programmeImage": ["https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573971569682&di=3f9ccb1c55bcdc647f3c8fa8dd890434&imgtype=0&src=http%3A%2F%2Fimages.zon100.com%2Fimg%2F10001284%2F1100155314%2F1100208411_1000.jpg"],
+      "programmeImage": ["https://t7.baidu.com/it/u=2285878850,295087639&fm=193&f=GIF"],
       "programmeName": "生菜"
     }, {
       "programmeId": 5,
-      "programmeImage": ["https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573971601472&di=69609d188237fd91f20d44b9a9482eda&imgtype=0&src=http%3A%2F%2Fphoto.16pic.com%2F00%2F22%2F08%2F16pic_2208648_b.jpg"],
+      "programmeImage": ["https://t7.baidu.com/it/u=1696138720,546733917&fm=193&f=GIF"],
       "programmeName": "油菜"
     }, {
       "programmeId": 6,
-      "programmeImage": ["https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573971633385&di=12bf23a17257c69b65b70a0fe3d57dbf&imgtype=0&src=http%3A%2F%2Fsh.sinaimg.cn%2F2015%2F0506%2FU10201P18DT20150506172427.jpg"],
+      "programmeImage": ["https://t7.baidu.com/it/u=4278887619,2170418697&fm=193&f=GIF"],
       "programmeName": "辣椒"
     }, {
       "programmeId": 7,
-      "programmeImage": ["https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2239997658,993144528&fm=26&gp=0.jpg"],
+      "programmeImage": ["https://t7.baidu.com/it/u=631924955,996383527&fm=193&f=GIF"],
       "programmeName": "冬瓜"
     }],
     advertTwoData: [{
-      color: "7AB900",
+      color: "#7AB900",
     }, {
-      color: "9DB9D1",
+      color: "#9DB9D1",
     }, {
-      color: "78BBFE",
+      color: "#78BBFE",
     }, {
-      color: "E67A56",
+      color: "#E67A56",
     }],
 
     duration: "500",
@@ -57,17 +57,13 @@ Page({
       'https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2320573b3be643e29f5270a97e1a9c1d.jpg?thumb=1&w=720&h=360'
     ],
     current: 0,
-
-    bannerData: [
-      {
+    bannerData: [{
         src: 'https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/b51889744910df7979a2f672434da84e.jpg?thumb=1&w=720&h=360',
         id: 0
-      },
-      {
+      },{
         src: 'https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/37dfdc929ee9a4313facb0b23ebcd721.jpg?thumb=1&w=720&h=360',
         id: 1
-      },
-      {
+      },{
         src: 'https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/a0ff3dc30027f3b615bfe03f1d306ee5.jpg?thumb=1&w=720&h=360',
         id: 2
       },

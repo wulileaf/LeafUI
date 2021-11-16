@@ -1,0 +1,9 @@
+<ocr-navigator bind:onSuccess="success" certificateType="idCard" opposite="{{false}}">
+  <image style="background:#fff;width:76%;height:160px;margin-left:12%;margin-top:15px;" src="/images/zm.png">
+  </image>
+</ocr-navigator>
+<ocr-navigator bind:onSuccess="success" certificateType="idCard" opposite="{{true}}" hover-class="none" style="background:#fff">
+  <image style="background:#fff;width:76%;height:160px;margin-left:12%;margin-top:30px;" src="/images/fm.png"></image>
+</ocr-navigator>
+
+<button type='primary' class='btn-bottom' bindtap='cpasswordplan'>确认提交</button>

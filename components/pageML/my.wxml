@@ -1,0 +1,22 @@
+<view class='lui-page'>
+  <view class='lui-my-header'>
+    <view class='lui-my-header-img'>
+      <image src='/images/leafui.png' style="width: 60px;height: 60px;border-radius: 5px;"></image>
+      <view class='lui-my-show-msg'>
+        <text class='lui-my-user-name'>{{username}}</text>
+        <text class='lui-my-user-account'>账号：{{account}}</text>
+      </view>
+    </view>
+    <image src='{{imagerigth}}' class='lui-my-right-img'></image>
+  </view>
+  <view style="margin-top: 5%;">
+    <block></block>
+    <view class='lui-my-items' bindtap='btnedition'>
+      <text class='lui-my-items-name' style='font-size:26rpx;'>关于五月花</text>
+      <view class='lui-my-items-name-right'>
+        <view style="font-size: 13px;margin-left: 15px;color: #a1a1a1;">版本1.0.0.0.0</view>
+        <image src='/images/add.png' class='set-my-img-version'></image>
+      </view>
+    </view>
+  </view>
+</view>

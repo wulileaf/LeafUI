@@ -1,7 +1,15 @@
 /* pages/tabbar/test.wxss */
 
+/* @import '/components/pageCSS/chanagepassword.wxss'; */
+/* @import '/components/pageCSS/my.wxss'; */
+/* @import '/components/pageCSS/sousuo.wxss'; */
+/* @import '/components/pageCSS/homeFunctModule.wxss'; */
+@import '/iconleafui.wxss';
+
+
+
 page {
-  background: #eee
+  background: #fff
 }
 
 .common {
@@ -14,14 +22,10 @@ page {
   padding: 25rpx;
 }
 
-
 .init {
   width: 100%;
   height: 40px;
-
-
 }
-
 
 .banner {
   width: 750rpx;
@@ -37,28 +41,3 @@ page {
   top: 0;
   left: 0;
 }
-
-
-/* .a {
-  opacity: {
-      {
-      index>=(page-1)*2?op: "1"
-    }
-  }
-
-  ;
-
-  margin-left: {
-      {
-      index>=(page-1)*2?mr: "0"
-    }
-  }rpx,
-
-  transition:all {
-      {
-      index>=(page-1)*2?(index-(page-1)*2)*0.5+0.5: "0"
-    }
-  }
-
-  s
-} */

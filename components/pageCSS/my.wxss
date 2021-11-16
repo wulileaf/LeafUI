@@ -1,0 +1,99 @@
+/* 我的 */
+
+page {
+  width: 100%;
+  height: 100%;
+  background: #fafafa;
+}
+
+.lui-page {
+  width: 100%;
+  height: 100%;
+}
+
+.lui-my-header {
+  width: 100%;
+  height: 20%;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lui-my-header-img {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  border-radius: 50%;
+}
+
+.lui-my-show-msg {
+  width: auto;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.lui-my-user-name {
+  margin-top: 5px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.lui-my-user-account {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #7e7e7e;
+}
+
+.lui-my-right-img {
+  width: 24px;
+  height: 24px;
+  margin-right: 5%;
+}
+
+.lui-my-items {
+  width: 100%;
+  height: 50px;
+  background: white;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.lui-my-items::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 0.5px;
+  width: 100%;
+  left: 4%;
+  background-color: #6f6f6f;
+}
+
+.lui-my-items-name {
+  margin-left: 5%;
+}
+
+.lui-my-items-name-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  margin-right: 5%;
+}
+
+.set-my-img-version {
+  width: 24px;
+  height: 24px;
+}
+
+/* 我的 */

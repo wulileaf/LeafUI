@@ -1,0 +1,7 @@
+/* componentSp/iconImg/icon.wxss */
+@import '/icon.wxss';
+
+page {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,26 @@
+<!-- 全部引用,多次 -->
+<!-- 用于主页面单个功能模块页面的引用 -->
+<!-- ywname = 功能名称 icondata = 需要的图标按钮数据 可参考：/utils/renderData.js-->
+<!-- 例:<sfa-page-sale ywname='{{ywname}}' icondata="{{icondata}}"></sfa-page-sale> -->
+<view class='sfa-sale-contain' style='width: 100%;'>
+  <!-- style='border-bottom:0.1rpx solid #f1f1f1' -->
+  <view class='sfa-contain'>
+
+    <view class='sfa-head-title' style='border-bottom:0.1rpx solid #f1f1f1'>
+      <text class='sfa-iden'></text>
+      <text class='sfa-title'>{{ywname}}</text>
+    </view>
+
+    <block wx:for="{{icondata}}" wx:for-index="index" wx:key>
+      <navigator class='sfa-sale-content' data-index="{{index}}" url="{{item.url}}" open-type="navigate" hover-class='none' style='border-bottom:0.1rpx solid #f1f1f1'>
+        <view class='sfa-img-gf'>
+          <icon class='iconfont {{item.address}} sfa-gf' style='color:{{item.color}};width:25px;height:25px;font-size:25px;'></icon>
+        </view>
+        <view class='sfa-content'>
+          <text>{{item.name}}</text>
+        </view>
+      </navigator>
+    </block>
+
+  </view>
+</view>

@@ -1,4 +1,4 @@
-// pages/tabbar/component/button/button.js
+// componentSp/tabbar/tabbar.js
 Page({
 
   /**
