@@ -5,7 +5,8 @@
 	<view style="color:#d8d8d8;margin-left:10%;font-size:15px;margin-bottom:25px;">欢迎使用leafui微信小程序ui组件库(适用初学者)</view>
 	<view class='select_box' wx:for="{{OrderData}}" wx:key='Id' hidden="{{alreadyCompleted}}" wx:if="{{item.IsShow}}">
 		<view class='select' data-index="{{index}}" bindtap="itemOnClick" style="height:40px;border-bottom:1px solid #fff;">
-			<text class='select_text' style="margin-left:10px;font-size:15px;color:#000;font-weight:600;">{{item.ReplName}}</text>
+			<!-- font-weight:600; -->
+			<text class='select_text' style="margin-left:10px;font-size:15px;color:#000;">{{item.ReplName}}</text>
 			<image class='select_img {{item.SelectShow&&"select_img_rotate"}} select_imgother' src='/images/downarr.png' background-size="contain"></image>
 		</view>
 		<view class="option_box" style='height:{{item.SelectShow==false? "auto" : 0}};'>

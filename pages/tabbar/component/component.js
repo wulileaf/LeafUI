@@ -103,6 +103,9 @@ Page({
       case 3:// picker
         tools.NavigateTo(pageUrl.Picker)
         break;
+      case 8:// 消息订阅
+        tools.NavigateTo(pageUrl.MsgSubscribe)
+        break;
       default:
         break;
     }

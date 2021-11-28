@@ -38,7 +38,7 @@
 			</swiper-item>
 		</swiper>
 
-		<image class="sPageTwo" src="http://47.114.149.241:8080/images/leafui/food_three.jpg"></image>
+		<image class="sPageTwo" src="https://img2.baidu.com/it/u=3101796271,719628680&fm=26&fmt=auto"></image>
 	</view>
 </view>
 
@@ -86,8 +86,8 @@
 </view>
 
 <!--Leaf 横向滑动 -->
-	<!-- <image src='{{item.programmeImage[0]}}' class='sun-pingou-img'></image> -->
-	<!-- <text class='tex-price'>{{item.programmeId}}￥</text> -->
+<!-- <image src='{{item.programmeImage[0]}}' class='sun-pingou-img'></image> -->
+<!-- <text class='tex-price'>{{item.programmeId}}￥</text> -->
 <!-- <view class='sun-pingou-huadong'>
 	<view class='sun-pingou-title'>
 		<text class='sun-left-tex'>Leaf横向滑动</text>
@@ -104,3 +104,33 @@
 		</block>
 	</scroll-view>
 </view> -->
+
+
+
+
+
+<view class='sun-pingou'>
+	<view class='sun-pingou-title'>
+		<text class='sun-left-tex'>猜你喜欢</text>
+	</view>
+	<view class='sun-cainixihuan-text'>
+		<block wx:for="{{cainixihuan}}" wx:for-index='index' wx:key>
+			<view class='sun-pingou-cnxh' bindtap='bindCNXH' data-index="{{index}}">
+				<image src='{{item.img}}' style='width:90%;height:71%;margin-left:5%;'></image>
+				<text class='sun-show-text' style="font-size:25rpx;margin-left:5%;height:14%;">{{item.name}}</text>
+				<text style='font-size:20rpx;margin-left:5%;height:5%;'>{{item.store}}</text>
+				<view class='sun-price' style='width:100%;height:10%;'>
+					<text style="font-size:20rpx;color:red;margin-left:5%;">￥</text>
+					<text style="color:red;">{{item.price}}</text>
+					<text style="color:#c8c8c8;font-size:25rpx;margin-left:5%">{{item.appraise}}万+评价</text>
+				</view>
+			</view>
+		</block>
+	</view>
+	<view style='width:100%;height:7.5px;background:#f9f9f9;'></view>
+	<!-- hidden="{{showBottom}}" -->
+	<view class='sun-bottom' style='width:100%;height:50px;color:#c8c8c8;background:#f9f9f9;font-size:13px;' hidden="{{showBottom}}">--------- 我也是有底线的 ---------</view>
+</view>
+
+<!-- {{iconHeight}} -->
+<icon class='iconfont icon-zhuangzhang go-top' style='bottom:40px;right:30px;position:fixed;' bindtap="bindGoTop" hidden="{{goTop}}"></icon>

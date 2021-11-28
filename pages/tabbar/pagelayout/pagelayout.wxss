@@ -310,3 +310,146 @@
 }
 
 /* ===============================横向==================================== */
+
+
+
+
+
+/* =======================================拼购==================================== */
+
+.sun-pingou {
+  width: 96%;
+  margin-left: 2%;
+  border-radius: 10px;
+  height: 400rpx;
+  background: white;
+  margin-top: 10px;
+}
+
+.sun-pingou-title {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sun-left-tex {
+  font-size: 18px;
+  margin-left: 3%;
+}
+
+.sun-rigth-tex {
+  font-size: 15px;
+  margin-right: 3%;
+  color: red;
+}
+
+.sun-pingou-text {
+  width: 100%;
+  height: 80%;
+  white-space: nowrap;
+  /* padding: 1px; */
+}
+
+.sun-pingou-item {
+  width: 115px;
+  height: 100%;
+  display: inline-block;
+}
+
+.sun-pingou-img {
+  width: 100%;
+  height: 65%;
+}
+
+.cad {
+  display: flex;
+  flex-direction: column;
+  width: 110px;
+  height: 100%;
+}
+
+/* ======================================================== */
+
+.sun-rp {
+  width: 96%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.rp {}
+
+/* ============================猜你喜欢================================== */
+
+.sun-cainixihuan-text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+  background: #f9f9f9;
+}
+
+.sun-pingou-cnxh {
+  border-radius: 20rpx;
+  /* background: red; */
+  width: 47%;
+  height: 260px;
+  margin-top: 2%;
+  margin-left: 2%;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  background: #fff;
+}
+
+/* .sun-price {
+ 
+  
+} */
+
+/* 限制内容显示的行数 */
+
+.sun-show-text {
+  /* word-break: break-all; */
+  /* text-overflow: ellipsis; */
+  /* line-height: 40rpx; */
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  display: -webkit-box;
+}
+
+/* 页面底部提示框 */
+
+.sun-bottom {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* ===============================隐藏滚动条==================== */
+
+/* ps:这个滚动条对于横向或者纵向滚动设置都有用 */
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+/* ===============================直接返回页面顶部的图片========================= */
+
+.go-top {
+  width: 40px;
+  height: 40px;
+  font-size: 40px;
+  border-radius: 50%;
+  position: absolute;
+  color: #f8cd43;
+}

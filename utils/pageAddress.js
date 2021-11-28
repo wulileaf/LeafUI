@@ -11,6 +11,7 @@ var orc = "/componentSp/orc/orc"// ORC身份证验证
 var icon = "/componentSp/iconImg/icon"// icon图标
 var tabbar = '/componentSp/tabbar/tabbar'// 导航栏
 var picker = '/componentSp/picker/picker'// 底部弹出框
+var msgsubscribe = '/componentSp/msgsubscribe/msgsubscribe' // 消息订阅
 
 
 module.exports = {
@@ -26,6 +27,7 @@ module.exports = {
   ORC: orc,
   Icon: icon,
   Tabbar: tabbar,
-  Picker: picker
+  Picker: picker,
+  MsgSubscribe: msgsubscribe
 
 }

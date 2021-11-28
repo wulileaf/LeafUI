@@ -1,13 +1,13 @@
 {
   "pages": [
-    
     "pages/tabbar/component/component",
     "pages/tabbar/pagelayout/pagelayout",
     "pages/tabbar/personalcenter/personalcenter",
     "components/pageHeader/pageHeader",
     "components/titleStyle/titleStyle",
     "pages/tabbar/test",
-    "components/pagePicker/pagePicker"
+    "components/pagePicker/pagePicker",
+    "pages/webview/webview"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -22,7 +22,8 @@
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
     "position": "bottom",
-    "list": [{
+    "list": [
+      {
         "pagePath": "pages/tabbar/component/component",
         "iconPath": "/images/tabbar/basics.png",
         "selectedIconPath": "/images/tabbar/basics_cur.png",
@@ -59,7 +60,8 @@
       "provider": "wx4418e3e031e551be"
     }
   },
-  "subpackages": [{
+  "subpackages": [
+    {
       "root": "componentSp",
       "name": "component",
       "pages": [
@@ -76,7 +78,8 @@
         "orc/orc",
         "iconImg/icon",
         "tabbar/tabbar",
-        "picker/picker"
+        "picker/picker",
+        "msgsubscribe/msgsubscribe"
       ]
     },
     {
