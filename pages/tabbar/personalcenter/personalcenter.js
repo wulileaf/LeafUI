@@ -1,4 +1,5 @@
 // pages/tabbar/personalcenter/personalcenter.js
+var tools = require('../../../utils/basetools')
 Page({
 
   /**
@@ -80,5 +81,24 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  toFun(res) {
+    console.log("-----------" + JSON.stringify(res))
+    switch (res.currentTarget.dataset.index) {
+      case 0:
+        tools.NavigateTo('/pagelayoutPc/userMsg/userMsg')
+        break;
+      case 1:
+        break;
+      case 2:
+        break;
+      case 3:
+        break;
+      default:
+        break;
+    }
   }
+
+
 })

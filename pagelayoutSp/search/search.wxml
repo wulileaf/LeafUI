@@ -1,0 +1,5 @@
+<view style="width: 100%;height: 100%;">
+  <view style="width: 100%;height: 68px;background-color: blue;opacity: 5;"></view>
+  <view style="width: 100%;height: 100%;background-color: blueviolet;"></view>
+
+</view>

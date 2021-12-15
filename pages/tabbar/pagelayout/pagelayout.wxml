@@ -4,16 +4,16 @@
 <view class='sun-label'>
 	<view class='sun-saoma-vip' bindtap='sunBtnSaoMa'>
 		<icon class='iconfont icon-saoyisao' style='color:#ffffff;width:25px;height:25px;font-size:25px;'></icon>
-		<text class='tx'>扫一扫</text>
+		<text class='tx' style="text-align: center;margin-top: 5px;">扫一扫</text>
 	</view>
 	<!-- <image src='/images/ssk.png' class='sun-ssk'></image> -->
-	<view style="width:75%;height:58%;border-width:1px;border-color:red;background:#d8d8d8;border-bottom-right-radius:0%;border-top-right-radius:23px;border-bottom-left-radius:23px;border-top-left-radius:23px;opacity:0.6" class="sun-sousuo">
+	<view style="width:75%;height:58%;border-width:1px;border-color:red;background:#d8d8d8;border-bottom-right-radius:0%;border-top-right-radius:23px;border-bottom-left-radius:23px;border-top-left-radius:23px;opacity:0.6" class="sun-sousuo" bindtap="bindSouSuo">
 		<image src="/images/biaoqing.png" style="width:25px;height:25px;margin-left:10px"></image>
 		<text style="font-size:13px;color:black;margin-left:5px">iphone X Max</text>
 	</view>
 	<view class='sun-saoma-vip' bindtap='sunBtnVip'>
-		<icon class='iconfont icon-huiyuan' style='color:#ffffff;width:18px;height:18px;font-size:18px;'></icon>
-		<text class='tx'>会员</text>
+		<icon class='iconfont icon-huiyuan' style='color:#ffffff;width:23px;height:23px;font-size:23px;'></icon>
+		<text class='tx' style="text-align: center;margin-top: 5px;">会员</text>
 	</view>
 </view>
 <!-- 头部搜索框样式下面的轮播图 -->

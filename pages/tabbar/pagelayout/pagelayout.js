@@ -1,4 +1,6 @@
 // pages/tabbar/pagelayout/pagelayout.js
+var tools = require('../../../utils/basetools.js')
+
 Page({
 
   /**
@@ -300,5 +302,23 @@ Page({
         goTop: true
       })
     }
+  },
+
+  // 扫码--20211201
+  sunBtnSaoMa() {
+    wx.scanCode({
+      onlyFromCamera: true,
+      scanType: ['barCode', 'qrCode', 'datamatrix', 'pdf417'],
+      success(res) {
+        console.log("扫码返回-----------" + JSON.stringify(res.result))
+      },
+      fail(res) { }
+    })
+  },
+
+  // 搜索
+  bindSouSuo() {
+    console.log("------------点击了搜索")
+    tools.NavigateTo('/pagelayoutSp/search/search');
   },
 })

@@ -1,0 +1,7 @@
+<view style="width: 100%;background-color: blue;position: fixed;height: {{customNavBarHeight}}px;">
+  <view style="width: 100%;height: {{statusbar}}px;background-color: chartreuse;"></view>
+  <view style="width: 100%;height: {{navigationbar}}px;background-color: coral;">
+  
+  </view>
+</view>
+<!-- <view style="width: 100%;height: 100%;margin-top: 64px;background-color: brown;"></view> -->

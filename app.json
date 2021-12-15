@@ -86,7 +86,15 @@
       "root": "pagelayoutSp",
       "name": "pagelayout",
       "pages": [
-        "grid/grid"
+        "grid/grid",
+        "search/search"
+      ]
+    },
+    {
+      "root": "pagelayoutPc",
+      "name": "personMsg",
+      "pages": [
+        "userMsg/userMsg"
       ]
     }
   ]
