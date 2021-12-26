@@ -24,6 +24,11 @@ Page({
     }, {
       "imgUrl": "guanyu",
       "name": "关于我们"
+    }],
+    userTap: [{
+      imgUrl: "/images/gg3.jpg"
+    }, {
+      imgUrl: "/images/gg4.jpg"
     }]
   },
 

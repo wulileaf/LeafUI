@@ -1,7 +1,47 @@
-<view style="width: 100%;background-color: blue;position: fixed;height: {{customNavBarHeight}}px;">
-  <view style="width: 100%;height: {{statusbar}}px;background-color: chartreuse;"></view>
-  <view style="width: 100%;height: {{navigationbar}}px;background-color: coral;">
-  
+<wxs module="refresh">
+  module.exports = {
+    // instance数据格式如下
+    // {"selectAllComponents":null,"selectComponent":null,"removeClass":null,"addClass":null,"hasClass":null,"setStyle":null,"getDataset":null,"getState":null,"triggerEvent":null,"callMethod":null,"requestAnimationFrame":null} 
+    onPulling: function (evt, instance) {
+      // console.log("evt--------" + JSON.stringify(evt))
+      var p = Math.min(evt.detail.dy / 80, 1)
+      // console.log("p--------" + p)
+      // console.log("instance--------" + JSON.stringify(instance))
+      var view = instance.selectComponent('.refresh-container')
+      view.setStyle({
+        opacity: p,
+        transform: "scale(" + p + ")"
+      })
+    }
+  }
+</wxs>
+
+<!-- <view style="width: 100%;height: 100%;"> -->
+
+<!-- <view style="width: 100%;height: 100%;background-color: #fff;">
+    <view style="width: 100%;height: {{customNavBarHeight}}px;"></view>
+    <view bindtap="openBluetooth">点击开启蓝牙</view>
+    <view bindtap="scanBluetooth" style="width: 100%;height: 50px;background-color: coral;">扫描周围蓝牙设备</view>
+  </view> -->
+<view style="width: 100%;height: {{customNavBarHeight}}px;">
+  <view style="width: 100%;position: fixed;height: 100%;">
+    <view style="width: 100%;height: {{statusbar}}px;"></view>
+    <view style="width: 100%;height: {{navigationbar}}px;background-color: coral;">
+    </view>
   </view>
 </view>
+<!-- refresher-background="lightgreen"这个设置的是颜色 -->
+<scroll-view scroll-y style="width: 100%; height: 100%;" refresher-enabled="{{true}}" refresher-threshold="{{80}}" refresher-default-style="none" bindrefresherpulling="{{refresh.onPulling}}" bindrefresherrefresh="onRefresh" refresher-triggered='{{pulling}}'>
+  <view slot="refresher" class="refresh-container" style="display: block; width: 100%; height: 80px; display: flex; align-items: center;">
+    <view class="view1" style="position: absolute; text-align: center; width: 100%;">
+      下拉刷新
+    </view>
+  </view>
+
+
+  <view bindtap="openBluetooth">点击开启蓝牙</view>
+  <view bindtap="scanBluetooth" style="width: 100%;height: 50px;background-color: coral;">扫描周围蓝牙设备</view>
+</scroll-view>
+<!-- </view> -->
+
 <!-- <view style="width: 100%;height: 100%;margin-top: 64px;background-color: brown;"></view> -->

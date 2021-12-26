@@ -13,7 +13,8 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Leaf UI",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#ffffff"
   },
   "usingComponents": {},
   "tabBar": {
@@ -22,8 +23,7 @@
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
     "position": "bottom",
-    "list": [
-      {
+    "list": [{
         "pagePath": "pages/tabbar/component/component",
         "iconPath": "/images/tabbar/basics.png",
         "selectedIconPath": "/images/tabbar/basics_cur.png",
@@ -60,8 +60,7 @@
       "provider": "wx4418e3e031e551be"
     }
   },
-  "subpackages": [
-    {
+  "subpackages": [{
       "root": "componentSp",
       "name": "component",
       "pages": [

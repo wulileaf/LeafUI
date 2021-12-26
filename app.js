@@ -1,6 +1,10 @@
 //app.js
 App({
   onLaunch: function () {
+    wx.setBackgroundColor({
+      backgroundColor: '#ffffff',
+    })
+
     wx.getSystemInfo({
       success: function (res) {
         console.log(res)
@@ -20,7 +24,7 @@ App({
 
 
 
-  
+
   //渐入，渐出实现 
   show: function (that, param, opacity) {
     var animation = wx.createAnimation({

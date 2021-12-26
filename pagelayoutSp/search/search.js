@@ -5,14 +5,31 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    customNavBarHeight: 0,
+    statusbar: 0,
+    navigationbar: 0,
+    winWidth: 0
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    const res = wx.getSystemInfoSync()
+    var statusbarH = res.statusBarHeight;// 获取状态栏高度
+    var wWidth = res.windowWidth - 95
+    console.log("总-------" + res.windowWidth)
+    console.log("wWidth------" + wWidth)
+    this.setData({
+      statusbar: statusbarH,
+      winWidth: wWidth
+    })
+    console.log("1----" + statusbarH);
+    let customNavBarHeight = res.statusBarHeight + res.screenWidth * 88 / 750; // 记得转换
+    this.setData({
+      customNavBarHeight: customNavBarHeight,
+      navigationbar: customNavBarHeight - statusbarH
+    })
   },
 
   /**
@@ -62,5 +79,12 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  // 返回键
+  back() {
+    wx.navigateBack({
+      delta: 1
+    })
   }
 })

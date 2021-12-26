@@ -1,4 +1,4 @@
-<view style="width: 100%;">
+<view style="width: 100%;height: 100%;background-color: #fff;">
 
   <!-- 顶部滑动展示栏 -->
   <swiper class="screen-swiper round-dot" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500" current='{{current}}'>
@@ -8,7 +8,7 @@
   </swiper>
 
   <!-- 个人信息展示栏 -->
-  <view style="width: 90%;margin-left: 5%;height: auto;margin-top: -50px;background-color: #d8d8d8;position: fixed;opacity: 0.5;border-radius: 10px;">
+  <view style="width: 94%;margin-left: 3%;height: auto;background-color: #d8d8d8;opacity: 0.5;border-radius: 10px;margin-top: -50px;">
     <block wx:for="{{userMsgAr}}" wx:key>
       <view style="width: 100%;height: 50px;line-height: 50px;display: flex;flex-direction: row;justify-content: space-between;font-size: 13px;" data-index="{{index}}" bindtap="toFun">
         <view style="width: 90%;padding-left: 3%;">
@@ -21,6 +21,14 @@
   </view>
 
   <!-- 其他栏 -->
-  <!-- <view style="width: 100%;height: 50px;background-color: chocolate;"></view> -->
+  <view style="display: flex;justify-content: space-between;width: 94%;margin-left: 3%;align-items: center;height: 40px;">
+    <text style="color: #000;font-size: 14px;">饮品介绍</text>
+    <view style="color: #d8d8d8;font-size: 12px;">查看全部</view>
+  </view>
+  <view style="width: 94%;margin-left: 3%;height: auto;background-color: #fff;border-radius: 10px;display: flex;flex-direction: row;flex-wrap: wrap;">
+    <block wx:for="{{userTap}}" wx:key>
+      <image data-index="{{index}}" style="width: 48%;height: 120px;border-radius: 10px;background-color: chocolate;margin: 0% 1%" src="{{item.imgUrl}}"></image>
+    </block>
+  </view>
 
 </view>

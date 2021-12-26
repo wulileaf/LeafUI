@@ -1,12 +1,14 @@
-<view style="width:100%;height:15%;" class="jc_header">
+<view style="width:100%;height:15%;" class="lui_page_one">
 	<pageHeader titleName="{{titleName}}" style="width:100%;"></pageHeader>
 </view>
 
-<view style="width:90%;height:30%;margin-left:5%;margin-top:5%;" class="jc_facecontrast_photo">
+<view style="width:90%;height:30%;margin-left:5%;margin-top:5%;position: relative;" class="jc_facecontrast_photo">
 	<view class='pe-fpage'>
 		<image src='{{imgYSUrl}}' class='gf' bindtap="btndateys" bindlongtap="btndateyslong"></image>
 	</view>
-	<view style="width:1px;height:50%;background:#d8d8d8;margin-top:15%;"></view>
+	<view style="width: auto;display: flex;flex-direction: column;justify-content: center;">
+		<view style="width:1px;height:30%;background:#d8d8d8;"></view>
+	</view>
 	<view class='pe-fpage'>
 		<image src='{{imgXZUrl}}' class='gf' bindtap='btndatexz' bindlongtap="btndatexzlong"></image>
 	</view>

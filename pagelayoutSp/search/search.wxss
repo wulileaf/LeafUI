@@ -1,1 +1,9 @@
 /* pagelayoutSp/search/search.wxss */
+@import '/iconleafui.wxss';
+
+.sun-sousuo {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: row;
+}

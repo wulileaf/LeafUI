@@ -6,4 +6,4 @@
   <image style="background:#fff;width:76%;height:160px;margin-left:12%;margin-top:30px;" src="/images/fm.png"></image>
 </ocr-navigator>
 
-<button type='primary' class='btn-bottom' bindtap='cpasswordplan'>确认提交</button>
+<view class="jc_zdy_btn_yj" style="background-color:#07C160;margin-top:15%;width:80%;margin-left:10%;" bindtap="cpasswordplan">确认提交</view>
