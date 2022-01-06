@@ -31,13 +31,11 @@
 		</swiper-item>
 	</swiper>
 	<view class="pageTwo">
-
 		<swiper class="sPageOne" circular="true" autoplay="true" interval="5000" duration="500" current='{{current}}' vertical='true'>
 			<swiper-item wx:for="{{imagesurl}}" bindtap='tapS' wx:for-index="index" data-index="{{index}}" wx:key>
 				<image src="{{item}}" mode='aspectFill'></image>
 			</swiper-item>
 		</swiper>
-
 		<image class="sPageTwo" src="https://img2.baidu.com/it/u=3101796271,719628680&fm=26&fmt=auto"></image>
 	</view>
 </view>

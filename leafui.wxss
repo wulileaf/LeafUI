@@ -22,7 +22,10 @@
   margin-top: 30px;
 }
 
-/* 基本布局 */
+/* ===========================================公共css部分====================================================== */
+
+/* 基本布局头部部分 */
+/* ───── Button ───── */
 .lui_page_explain {
   width: 90%;
   margin-left: 3%;
@@ -35,11 +38,123 @@
 }
 
 /* 基本布局 */
+/* ▱ Button ▱ */
 .lui_page_one {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.sun-sousuo {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: row;
+}
+
+/* ===========================================公共css部分====================================================== */
+
+/* ===========================================头部搜索框样式+底部滑动栏====================================================== */
+
+.sun-label {
+  width: 100%;
+  height: 120rpx;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sun-saoma-vip {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tx {
+  color: #fff;
+  font-size: 18rpx;
+}
+
+.screen-swiper {
+  min-height: 380rpx;
+  position: relative;
+}
+
+.round-dot {
+  height: 200px;
+}
+
+/* ===========================================头部搜索框样式+底部滑动栏====================================================== */
+
+
+/* ===========================================广告1====================================================== */
+
+.layoutOne {
+  width: 98%;
+  margin-left: 1%;
+  border-radius: 5px;
+  height: 200px;
+  flex-direction: row;
+  display: flex;
+}
+
+.pageOne {
+  height: 100%;
+  width: 50%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background: green;
+  transform: translateY(0);
+  overflow: hidden;
+}
+
+.pageTwo {
+  height: 100%;
+  width: 50%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: gold;
+}
+
+.sPageOne {
+  width: 100%;
+  height: 50%;
+  background: hotpink;
+  border-top-right-radius: 10px;
+  transform: translateY(0);
+  overflow: hidden;
+}
+
+.sPageTwo {
+  width: 100%;
+  height: 50%;
+  background: rebeccapurple;
+  border-bottom-right-radius: 10px;
+}
+
+/* ===========================================广告1====================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

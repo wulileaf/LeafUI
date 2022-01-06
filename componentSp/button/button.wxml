@@ -7,11 +7,9 @@
 <button type="primary" class="top20">button</button>
 <button type="default" class="top20">button</button>
 <button type="warn" class="top20">button</button>
-
 <button type="primary" class="top20" plain="true">button</button>
 <button type="default" class="top20" plain="true">button</button>
 <button type="warn" class="top20" plain="true">button</button>
-
 <button type="primary" class="top20" loading="true">button</button>
 <button type="default" class="top20" loading="true">button</button>
 <button type="warn" class="top20" loading="true">button</button>
